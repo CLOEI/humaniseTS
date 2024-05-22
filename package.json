@@ -1,6 +1,6 @@
 {
   "name": "humanisets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Humanise your puppeteer-chromium experience!",
   "repository": "https://github.com/CLOEI/humaniseTS",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "tsx watch humanise.ts",
     "build": "tsc",
-    "preinstall": "npm run build"
+    "prepublish": "npm run build"
   },
   "keywords": [
     "puppeteer",
